@@ -4,7 +4,13 @@
 
 Provides a base for common elements.
 
-  npm i ygdir --save
+    npm i ygdir --save
+
+### Develop
+
+Run the following command:
+
+    node-sass --output-style compressed -o scss/* css/*
 
 ### How to use
 

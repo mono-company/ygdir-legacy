@@ -5,6 +5,7 @@
 .c-button {
   padding: 0.6rem 1rem;
   display: inline-flex;
+  border-radius: 0.2rem;
 }
 
 a.c-button {
@@ -17,6 +18,6 @@ a.c-button {
 }
 
 .c-button--primary {
-  background: red;
+  background: #0E83FC;
   color: #FFF;
 }
