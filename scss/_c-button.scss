@@ -1,0 +1,22 @@
+/* ==========================================================================
+  Button
+   ========================================================================== */
+
+.c-button {
+  padding: 0.6rem 1rem;
+  display: inline-flex;
+}
+
+a.c-button {
+  text-decoration: none;
+}
+
+.c-button--default {
+  background: #DDD;
+  color: #333;
+}
+
+.c-button--primary {
+  background: red;
+  color: #FFF;
+}
