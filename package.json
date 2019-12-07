@@ -1,6 +1,6 @@
 {
   "name": "ygdir",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "description": "A BEM/ITCSS based framework",
   "main": "index.js",
   "dependencies": {
@@ -8,9 +8,14 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "sass scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfr/ygdir.git"
   },
   "keywords": [],
   "author": "Johan Ronsse",
-  "license": "ISC"
+  "license": "MIT"
 }
