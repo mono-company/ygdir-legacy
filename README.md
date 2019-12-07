@@ -26,3 +26,14 @@ Or - load in parts of the CSS:
     @import "../../node_modules/ygdir/scss/ygdir/c-content";
     @import "../../node_modules/ygdir/scss/ygdir/c-block-list";
     @import "../../node_modules/ygdir/scss/ygdir/c-toolbar";
+
+### CDN Usage
+
+To use Ygdir from a CDN:
+
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/ygdir@latest/css/ygdir.css">
+
+## Demo's
+
+* [Content](https://codepen.io/wolfr/pen/rNaOZEY)
+* [Buttons](https://codepen.io/wolfr/pen/YzPyOMg)
