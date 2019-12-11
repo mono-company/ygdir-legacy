@@ -2,15 +2,11 @@
 
 ### A BEM/ITCSS based framework
 
-Provides a base for common elements.
+Ygdir is a new CSS framework that aims to make CSS less painful.
+
+### Install
 
     npm i ygdir --save
-
-### Develop
-
-Run the following command:
-
-    node-sass --output-style compressed -o scss/* css/*
 
 ### How to use
 
@@ -26,6 +22,12 @@ Or - load in parts of the CSS:
     @import "../../node_modules/ygdir/scss/ygdir/c-content";
     @import "../../node_modules/ygdir/scss/ygdir/c-block-list";
     @import "../../node_modules/ygdir/scss/ygdir/c-toolbar";
+
+### Develop
+
+Run the following command:
+
+    node-sass --output-style compressed -o scss/* css/*
 
 ### CDN Usage
 
