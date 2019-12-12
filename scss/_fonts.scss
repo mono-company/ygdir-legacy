@@ -2,13 +2,15 @@
   Fonts
    ========================================================================== */
 
+$font-location: "../fonts/" !default;
+
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/Inter-Regular.woff2?v=3.11") format("woff2"),
-       url("../fonts/Inter-Regular.woff?v=3.11") format("woff");
+  src: url("#{$font-loc}Inter-Regular.woff2?v=3.11") format("woff2"),
+       url("#{$font-loc}Inter-Regular.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -16,8 +18,8 @@
   font-style:  italic;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/Inter-Italic.woff2?v=3.11") format("woff2"),
-       url("../fonts/Inter-Italic.woff?v=3.11") format("woff");
+  src: url("#{$font-loc}nter-Italic.woff2?v=3.11") format("woff2"),
+       url("#{$font-loc}nter-Italic.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -25,8 +27,8 @@
   font-style:  normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/Inter-Medium.woff2?v=3.11") format("woff2"),
-       url("../fonts/Inter-Medium.woff?v=3.11") format("woff");
+  src: url("#{$font-loc}nter-Medium.woff2?v=3.11") format("woff2"),
+       url("#{$font-loc}nter-Medium.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -34,8 +36,8 @@
   font-style:  italic;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/Inter-MediumItalic.woff2?v=3.11") format("woff2"),
-       url("../fonts/Inter-MediumItalic.woff?v=3.11") format("woff");
+  src: url("#{$font-loc}nter-MediumItalic.woff2?v=3.11") format("woff2"),
+       url("#{$font-loc}nter-MediumItalic.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -43,8 +45,8 @@
   font-style:  normal;
   font-weight: 600;
   font-display: swap;
-  src: url("../fonts/Inter-SemiBold.woff2?v=3.11") format("woff2"),
-       url("../fonts/Inter-SemiBold.woff?v=3.11") format("woff");
+  src: url("#{$font-loc}nter-SemiBold.woff2?v=3.11") format("woff2"),
+       url("#{$font-loc}nter-SemiBold.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -52,8 +54,8 @@
   font-style:  italic;
   font-weight: 600;
   font-display: swap;
-  src: url("../fonts/Inter-SemiBoldItalic.woff2?v=3.11") format("woff2"),
-       url("../fonts/Inter-SemiBoldItalic.woff?v=3.11") format("woff");
+  src: url("#{$font-loc}nter-SemiBoldItalic.woff2?v=3.11") format("woff2"),
+       url("#{$font-loc}nter-SemiBoldItalic.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -61,8 +63,8 @@
   font-style:  normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/Inter-Bold.woff2?v=3.11") format("woff2"),
-       url("../fonts/Inter-Bold.woff?v=3.11") format("woff");
+  src: url("#{$font-loc}nter-Bold.woff2?v=3.11") format("woff2"),
+       url("#{$font-loc}nter-Bold.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -70,8 +72,8 @@
   font-style:  italic;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/Inter-BoldItalic.woff2?v=3.11") format("woff2"),
-       url("../fonts/Inter-BoldItalic.woff?v=3.11") format("woff");
+  src: url("#{$font-loc}nter-BoldItalic.woff2?v=3.11") format("woff2"),
+       url("#{$font-loc}nter-BoldItalic.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -79,8 +81,8 @@
   font-style:  normal;
   font-weight: 800;
   font-display: swap;
-  src: url("../fonts/Inter-ExtraBold.woff2?v=3.11") format("woff2"),
-       url("../fonts/Inter-ExtraBold.woff?v=3.11") format("woff");
+  src: url("#{$font-loc}nter-ExtraBold.woff2?v=3.11") format("woff2"),
+       url("#{$font-loc}nter-ExtraBold.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -88,8 +90,8 @@
   font-style:  italic;
   font-weight: 800;
   font-display: swap;
-  src: url("../fonts/Inter-ExtraBoldItalic.woff2?v=3.11") format("woff2"),
-       url("../fonts/Inter-ExtraBoldItalic.woff?v=3.11") format("woff");
+  src: url("#{$font-loc}nter-ExtraBoldItalic.woff2?v=3.11") format("woff2"),
+       url("#{$font-loc}nter-ExtraBoldItalic.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -97,6 +99,6 @@
   font-style:  normal;
   font-weight: 900;
   font-display: swap;
-  src: url("../fonts/Inter-Black.woff2?v=3.11") format("woff2"),
-       url("../fonts/Inter-Black.woff?v=3.11") format("woff");
+  src: url("#{$font-loc}nter-Black.woff2?v=3.11") format("woff2"),
+       url("#{$font-loc}nter-Black.woff?v=3.11") format("woff");
 }

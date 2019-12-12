@@ -1,6 +1,6 @@
 {
   "name": "ygdir",
-  "version": "1.15.0",
+  "version": "1.15.1",
   "description": "A BEM/ITCSS based framework",
   "main": "index.js",
   "devDependencies": {
