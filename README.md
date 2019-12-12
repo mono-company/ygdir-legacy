@@ -16,12 +16,15 @@ Load in the full CSS file:
 
 (Paths will depend on your specific framework)
 
-Or - load in parts of the CSS:
+Or - load in parts of the CSS, meant for specific things, currently we offer the "website" package:
 
-    @import "../../node_modules/ygdir/scss/ygdir/c-button";
-    @import "../../node_modules/ygdir/scss/ygdir/c-content";
-    @import "../../node_modules/ygdir/scss/ygdir/c-block-list";
-    @import "../../node_modules/ygdir/scss/ygdir/c-toolbar";
+    @import "../../node_modules/ygdir/ygdir-website/
+
+Or - load in parts of the CSS by hand:
+
+    @import "../../node_modules/ygdir/scss/ygdir-website/c-content";
+    @import "../../node_modules/ygdir/scss/ygdir-website/c-block-list";
+    @import "../../node_modules/ygdir/scss/ygdir-website/c-toolbar";
 
 ### Develop
 
