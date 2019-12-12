@@ -10,8 +10,11 @@
   really strip away what you do not use in production.
 */
 
-@import "_fonts";
-@import "_g-variables";
+@import "_reset";
+
+// Settings
+@import "_s-fonts";
+@import "_s-variables";
 
 // Elements
 @import "_e-base";
