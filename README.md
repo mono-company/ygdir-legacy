@@ -20,15 +20,15 @@ Load in the full CSS file:
 
 (Paths will depend on your specific framework)
 
-Or - load in parts of the CSS, meant for specific things, currently we offer the "website" package:
+This is useful for checking out Ygdir. In production, you will want to load in parts of the CSS, meant for specific things, by hand:
 
-    @import "../../node_modules/ygdir/ygdir-website/
+    @import "../../node_modules/ygdir/scss/ygdir/reset"; // Always start with the reset
+    @import "../../node_modules/ygdir/scss/ygdir/e-base"; // Always load base elements as well
+    @import "../../node_modules/ygdir/scss/ygdir/c-button"; // Every other element is optional
+    @import "../../node_modules/ygdir/scss/ygdir/c-block-list";
+    @import "../../node_modules/ygdir/scss/ygdir/c-toolbar";
 
-Or - load in parts of the CSS by hand:
-
-    @import "../../node_modules/ygdir/scss/ygdir-website/c-content";
-    @import "../../node_modules/ygdir/scss/ygdir-website/c-block-list";
-    @import "../../node_modules/ygdir/scss/ygdir-website/c-toolbar";
+To get some inspiration on packages you would use for different contexts, check out `ygdir-content-website.scss` and `ygdir-app.scss`.
 
 ### Develop
 
