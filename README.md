@@ -1,8 +1,12 @@
 ## Ygdir
 
-### A BEM/ITCSS based framework
+### A minimalist CSS framework
 
-Ygdir is a new CSS framework that aims to make CSS less painful.
+Ygdir is a new CSS framework that aims to make CSS less painful, by working with strict filename and classname conventions, and aiming to write as little CSS as possible.
+
+### Documentation
+
+Visit our website at http://ygdir.dev/
 
 ### Install
 
@@ -38,7 +42,3 @@ To use Ygdir from a CDN:
 
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/ygdir@latest/css/ygdir.css">
 
-## Demo's
-
-* [Content](https://codepen.io/wolfr/pen/rNaOZEY)
-* [Buttons](https://codepen.io/wolfr/pen/YzPyOMg)
