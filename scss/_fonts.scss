@@ -9,8 +9,8 @@ $font-location: "../fonts/" !default;
   font-style:  normal;
   font-weight: 400;
   font-display: swap;
-  src: url("#{$font-loc}Inter-Regular.woff2?v=3.11") format("woff2"),
-       url("#{$font-loc}Inter-Regular.woff?v=3.11") format("woff");
+  src: url("#{$font-location}Inter-Regular.woff2?v=3.11") format("woff2"),
+       url("#{$font-location}Inter-Regular.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -18,8 +18,8 @@ $font-location: "../fonts/" !default;
   font-style:  italic;
   font-weight: 400;
   font-display: swap;
-  src: url("#{$font-loc}nter-Italic.woff2?v=3.11") format("woff2"),
-       url("#{$font-loc}nter-Italic.woff?v=3.11") format("woff");
+  src: url("#{$font-location}nter-Italic.woff2?v=3.11") format("woff2"),
+       url("#{$font-location}nter-Italic.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -27,8 +27,8 @@ $font-location: "../fonts/" !default;
   font-style:  normal;
   font-weight: 500;
   font-display: swap;
-  src: url("#{$font-loc}nter-Medium.woff2?v=3.11") format("woff2"),
-       url("#{$font-loc}nter-Medium.woff?v=3.11") format("woff");
+  src: url("#{$font-location}nter-Medium.woff2?v=3.11") format("woff2"),
+       url("#{$font-location}nter-Medium.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -36,8 +36,8 @@ $font-location: "../fonts/" !default;
   font-style:  italic;
   font-weight: 500;
   font-display: swap;
-  src: url("#{$font-loc}nter-MediumItalic.woff2?v=3.11") format("woff2"),
-       url("#{$font-loc}nter-MediumItalic.woff?v=3.11") format("woff");
+  src: url("#{$font-location}nter-MediumItalic.woff2?v=3.11") format("woff2"),
+       url("#{$font-location}nter-MediumItalic.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -45,8 +45,8 @@ $font-location: "../fonts/" !default;
   font-style:  normal;
   font-weight: 600;
   font-display: swap;
-  src: url("#{$font-loc}nter-SemiBold.woff2?v=3.11") format("woff2"),
-       url("#{$font-loc}nter-SemiBold.woff?v=3.11") format("woff");
+  src: url("#{$font-location}nter-SemiBold.woff2?v=3.11") format("woff2"),
+       url("#{$font-location}nter-SemiBold.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -54,8 +54,8 @@ $font-location: "../fonts/" !default;
   font-style:  italic;
   font-weight: 600;
   font-display: swap;
-  src: url("#{$font-loc}nter-SemiBoldItalic.woff2?v=3.11") format("woff2"),
-       url("#{$font-loc}nter-SemiBoldItalic.woff?v=3.11") format("woff");
+  src: url("#{$font-location}nter-SemiBoldItalic.woff2?v=3.11") format("woff2"),
+       url("#{$font-location}nter-SemiBoldItalic.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -63,8 +63,8 @@ $font-location: "../fonts/" !default;
   font-style:  normal;
   font-weight: 700;
   font-display: swap;
-  src: url("#{$font-loc}nter-Bold.woff2?v=3.11") format("woff2"),
-       url("#{$font-loc}nter-Bold.woff?v=3.11") format("woff");
+  src: url("#{$font-location}nter-Bold.woff2?v=3.11") format("woff2"),
+       url("#{$font-location}nter-Bold.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -72,8 +72,8 @@ $font-location: "../fonts/" !default;
   font-style:  italic;
   font-weight: 700;
   font-display: swap;
-  src: url("#{$font-loc}nter-BoldItalic.woff2?v=3.11") format("woff2"),
-       url("#{$font-loc}nter-BoldItalic.woff?v=3.11") format("woff");
+  src: url("#{$font-location}nter-BoldItalic.woff2?v=3.11") format("woff2"),
+       url("#{$font-location}nter-BoldItalic.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -81,8 +81,8 @@ $font-location: "../fonts/" !default;
   font-style:  normal;
   font-weight: 800;
   font-display: swap;
-  src: url("#{$font-loc}nter-ExtraBold.woff2?v=3.11") format("woff2"),
-       url("#{$font-loc}nter-ExtraBold.woff?v=3.11") format("woff");
+  src: url("#{$font-location}nter-ExtraBold.woff2?v=3.11") format("woff2"),
+       url("#{$font-location}nter-ExtraBold.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -90,8 +90,8 @@ $font-location: "../fonts/" !default;
   font-style:  italic;
   font-weight: 800;
   font-display: swap;
-  src: url("#{$font-loc}nter-ExtraBoldItalic.woff2?v=3.11") format("woff2"),
-       url("#{$font-loc}nter-ExtraBoldItalic.woff?v=3.11") format("woff");
+  src: url("#{$font-location}nter-ExtraBoldItalic.woff2?v=3.11") format("woff2"),
+       url("#{$font-location}nter-ExtraBoldItalic.woff?v=3.11") format("woff");
 }
 
 @font-face {
@@ -99,6 +99,6 @@ $font-location: "../fonts/" !default;
   font-style:  normal;
   font-weight: 900;
   font-display: swap;
-  src: url("#{$font-loc}nter-Black.woff2?v=3.11") format("woff2"),
-       url("#{$font-loc}nter-Black.woff?v=3.11") format("woff");
+  src: url("#{$font-location}nter-Black.woff2?v=3.11") format("woff2"),
+       url("#{$font-location}nter-Black.woff?v=3.11") format("woff");
 }
