@@ -2,6 +2,100 @@
   Modal
    ========================================================================== */
 
-.c-modal {
+/* Variables
+   ========================================================================== */
 
+$c-modal-width: 90rem;
+$c-modal-padding: 3.2rem;
+$c-modal-padding-small: 1.6rem;
+$c-modal-content-padding: 1.6rem;
+$c-modal-border-color: #CCC;
+
+/* Backdrop
+   The backdrop provides the visual overlay while the modal is active
+   ========================================================================== */
+
+.c-modal-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10010;
+  background-color: rgba(#FFF, 0.8);
+  backdrop-filter: blur(2px);
 }
+
+/* Wrapper
+   The modal is positioned within the wrapper
+   ========================================================================== */
+
+.c-modal-dialog-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.c-modal-dialog-wrapper__inner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.c-modal-dialog-wrapper .c-modal-dialog {
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+
+/* The modal itself
+   ========================================================================== */
+
+.c-modal-dialog {
+  margin: auto;
+  width: $c-modal-width;
+  max-width: 100%;
+  max-height: 100%;
+  filter: drop-shadow(0 0 4px rgba(#000,0.5));
+}
+
+.c-modal-dialog__content {
+  overflow: auto;
+  flex: 0 1 auto;
+  border-top: 0;
+  border-bottom: 0;
+  // The visual part
+  background-color: #FFF;
+}
+
+
+.c-modal-dialog .c-navbar {
+  flex: 0 1 6.5rem;
+  background: white;
+}
+
+.c-modal__height-pusher {
+  flex: 1 0 auto;
+  @media (min-width: 1000px) {
+    min-height: 2.4rem;
+  }
+}
+
+/* Modal sizes
+   ========================================================================== */
+
+.c-modal-dialog--small {
+  width: 40rem;
+}
+
+.c-modal-dialog--medium {
+  width: 60rem;
+}
+
