@@ -1,6 +1,6 @@
 {
   "name": "ygdir",
-  "version": "1.19.0",
+  "version": "1.19.1",
   "description": "You gotta do it right! A minimalist, convention-first CSS framework.",
   "main": "index.js",
   "devDependencies": {
