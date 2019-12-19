@@ -1,6 +1,8 @@
 ## Ygdir
 
-### A minimalist CSS framework
+> YGDIR: You gotta do it right!
+
+### A minimalist, convention-first CSS framework
 
 Ygdir is a new CSS framework that aims to make CSS less painful, by working with strict filename and classname conventions, and aiming to write as little CSS as possible.
 
