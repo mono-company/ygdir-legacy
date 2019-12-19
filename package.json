@@ -1,6 +1,6 @@
 {
   "name": "ygdir",
-  "version": "1.18.0",
+  "version": "1.19.0",
   "description": "You gotta do it right! A minimalist, convention-first CSS framework.",
   "main": "index.js",
   "devDependencies": {
@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "node-sass scss/ygdir.scss > css/ygdir.css"
+    "prepare": "node-sass scss/ygdir.scss > css/ygdir.css",
+    "dev": "node-sass --watch --recursive --output css --source-map true --source-map-contents scss"
   },
   "repository": {
     "type": "git",

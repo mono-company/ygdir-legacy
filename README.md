@@ -36,7 +36,9 @@ To get some inspiration on packages you would use for different contexts, check 
 
 Run the following command:
 
-    node-sass --watch --recursive --output css --source-map true --source-map-contents scss
+    npm run dev
+
+This will run the Sass compiler with a “watch” style command, which compiles your CSS on save.
 
 ### CDN Usage
 
