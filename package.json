@@ -1,7 +1,7 @@
 {
   "name": "ygdir",
   "version": "1.18.0",
-  "description": "A BEM/ITCSS based framework",
+  "description": "You gotta do it right! A minimalist, convention-first CSS framework.",
   "main": "index.js",
   "devDependencies": {
     "node-sass": "^4.13.0"
