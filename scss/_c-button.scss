@@ -16,6 +16,7 @@ $c-button-primary-color: #0E83FC;
   border-radius: 0.2rem;
   border: none;
   appearance: none;
+  font-size: 1.6rem;
 }
 
 a.c-button {
@@ -37,4 +38,8 @@ a.c-button {
   &:active {
     background: darken($c-button-primary-color, 10%);
   }
+}
+
+.c-button--link {
+  color: $c-link-primary-color;
 }
