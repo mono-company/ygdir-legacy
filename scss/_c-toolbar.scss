@@ -9,6 +9,10 @@
 
 $c-toolbar-item-spacing: 1.6rem !default;
 $c-toolbar-main-border-color: #DDD !default;
+$c-toolbar-bar-size-regular: 4.8rem;
+$c-toolbar-z: 2;
+$c-toolbar-middle-z: 1;
+$c-toolbar-title-heading-font-weight: 600;
 
 /* Component
    ========================================================================== */
@@ -19,11 +23,7 @@ $c-toolbar-main-border-color: #DDD !default;
   flex-shrink: 0;
   align-items: center;
   justify-content: space-around;
-  height: $g-bar-size-regular;
-}
-
-.c-toolbar--medium {
-  height: $g-bar-size-medium;
+  height: $c-toolbar-bar-size-regular;
 }
 
 .c-toolbar--spaced {
@@ -35,7 +35,7 @@ $c-toolbar-main-border-color: #DDD !default;
 }
 
 .c-toolbar__left {
-  z-index: $g-c-local-toolbar-z; // Left and right should have higher z-index than center; if the elements overlap, there is a bigger chance we can still tap the action most likely contained on the left or right end
+  z-index: $c-toolbar-z; // Left and right should have higher z-index than center; if the elements overlap, there is a bigger chance we can still tap the action most likely contained on the left or right end
   justify-content: flex-start;
   .c-toolbar__item {
     margin-right: $c-toolbar-item-spacing;
@@ -46,7 +46,7 @@ $c-toolbar-main-border-color: #DDD !default;
 }
 
 .c-toolbar__right {
-  z-index: $g-c-local-toolbar-z; // Left and right should have higher z-index than center; if the elements overlap, there is a bigger chance we can still tap the action most likely contained on the left or right end
+  z-index: $c-toolbar-z; // Left and right should have higher z-index than center; if the elements overlap, there is a bigger chance we can still tap the action most likely contained on the left or right end
   justify-content: flex-end;
   .c-toolbar__item {
     margin-left: $c-toolbar-item-spacing;
@@ -87,7 +87,7 @@ $c-toolbar-main-border-color: #DDD !default;
 }
 
 .c-toolbar__center--interactive {
-  z-index: $g-c-local-toolbar-middle-z; // If our middle element is interactive (rare) we can specifiy this
+  z-index: $c-toolbar-middle-z; // If our middle element is interactive (rare) we can specifiy this
 }
 
 // For some cases you need to set -100% to actually center the item
@@ -99,7 +99,7 @@ $c-toolbar-main-border-color: #DDD !default;
    ========================================================================== */
 
 .c-toolbar__title {
-  font-weight: $g-headings-font-weight;
+  font-weight: $c-toolbar-title-heading-font-weight;
   font-size: 1.8rem;
 }
 
