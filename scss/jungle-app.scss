@@ -1,5 +1,5 @@
-// Ygdir Website
-// A package with styles that can be used for websites.
+// Jungle App
+// A package with styles that can be used for apps.
 
 @import "_s-fonts";
 @import "_s-variables";
@@ -8,10 +8,13 @@
 @import "_e-base";
 
 // Components
+@import "_c-block-list";
 @import "_c-button";
 @import "_c-content";
-@import "_c-block-list";
-@import "_c-container";
+@import "_c-modal";
+@import "_c-popover";
+@import "_c-toolbar";
+@import "_c-tooltip";
 
 // Utilities
 @import "_u-flex";
