@@ -1,7 +1,7 @@
 {
-  "name": "ygdir",
-  "version": "1.19.1",
-  "description": "You gotta do it right! A minimalist, convention-first CSS framework.",
+  "name": "jungle",
+  "version": "2.0.0",
+  "description": "Jungle is a set of HTML and CSS components.",
   "main": "index.js",
   "devDependencies": {
     "node-sass": "^4.13.0"
@@ -13,9 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wolfr/ygdir.git"
+    "url": "git+https://github.com/mono-company/jungle-npm.git"
   },
-  "keywords": [],
-  "author": "Johan Ronsse",
-  "license": "MIT"
+  "keywords": [
+    "design",
+    "html",
+    "css",
+    "frontend",
+    "framework"
+  ],
+  "author": "Mono Company BVBA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mono-company/jungle-npm/issues"
+  },
+  "homepage": "https://github.com/mono-company/jungle-npm#readme"
 }
