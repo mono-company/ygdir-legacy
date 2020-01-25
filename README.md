@@ -1,6 +1,28 @@
-## Jungle CSS 2.0
+## Jungle CSS 2
+
+_Note that Jungle CSS v2 is in active development, the current version is not ready for production use!_
 
 Jungle is a set of HTML and CSS components that can be used independently of each other, following the <a href="https://ygdir.dev">Ygdir</a> convention, themed with a set of great defaults.
+
+We provide the following components:
+
+* Button [WIP]
+* Button group
+* Block list
+* Content
+* Modal
+* Navbar
+* Toolbar
+
+Javascript components (using Popper)
+
+* Popover [WIP]
+* Tooltip [WIP]
+
+We provide the following defaults:
+
+* A CSS reset
+* A type scaling system
 
 ### Documentation
 
